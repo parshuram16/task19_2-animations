@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .bg{
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            animation-name: an1;
+            animation-duration: 5s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+        @keyframes an1 {
+            0%{
+                background-color: green;
+
+            }
+            20%{
+                background-color: blue;
+                border-radius: 10%;
+                transform: translateX(30px);
+
+            }
+            40%{
+                background-color: yellow;
+                border-radius: 20%;
+                transform: rotate(360deg);
+            }
+            60%{
+                background-color: brown;
+                border-radius: 30%;
+                transform: translateY(60px) scale(1.3);
+            }
+            80%{
+                background-color: blueviolet;
+                border-radius: 40%;
+            }
+            100%{
+                background-color: red;
+                border-radius: 50%;
+            }
+        }
+
+
+        .card1{
+            background-color: aqua;
+            height: 250px;
+            width: 250px;
+            border: 1px solid black;
+            animation-name: an2;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            border-radius: 50%;
+
+        }
+
+        @keyframes an2 {
+            0%{
+                background-image: url("https://img.freepik.com/free-photo/india-republic-day-national-celebration-3d-style_23-2151015958.jpg?t=st=1708514511~exp=1708518111~hmac=ae5d83455e32a0a2069fc7b73cb054882d99ceae9780036345f2827d4a0a5660&w=360");
+                background-size: cover;
+            }
+            25%{
+                background-image: url("https://img.freepik.com/free-vector/gate-india-design-indian-independence-day_1394-825.jpg?w=740&t=st=1708514772~exp=1708515372~hmac=b7e0a0fd5892729f52e2941441ae548a3b0bd304104fcc534a9cea552a42dba9");
+                background-size: cover;
+            }
+            50%{
+                background-image: url("https://img.freepik.com/free-vector/india-independence-day-card-colorful_18591-51981.jpg?w=740&t=st=1708515048~exp=1708515648~hmac=283c1e3f20b2c2e1e1f8385c49310d3404ed444a06753cf2fbda87d1f63e37a6");
+                background-size: cover;
+            }
+            100%{
+                background-image: url("https://img.freepik.com/free-photo/india-mahal-king-palace-kingdom_1376-65.jpg?w=740&t=st=1708515153~exp=1708515753~hmac=b071fea138a39d91389c5eef57002e660b956b978bb1324ab863a63e89b81a57");
+                background-size: cover;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="bg">
+
+    </div>
+
+
+    <br><br><br><br><br><br>
+    <div class="card1">
+
+    </div>
+</body>
+</html>
